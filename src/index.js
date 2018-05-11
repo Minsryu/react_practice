@@ -2,5 +2,9 @@ import React from 'react';
 import { render } from 'react-dom';
 import StorePicker from './components/StorePicker.js'
 
+import App from './components/App.js'
 
-render(<StorePicker/>, document.querySelector('#main'));
+import "./css/style.css";
+
+
+render(<App/>, document.querySelector('#main'));
