@@ -13,9 +13,8 @@ const Header = (props) => (
             <h3 className = "tagline">
                 <span>{props.tagline}</span>
             </h3>
-           </header> 
-    );
-
+        </header> 
+ );
 // class Header extends React.Component{
 
 //     render(){
